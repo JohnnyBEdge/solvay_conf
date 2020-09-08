@@ -8,6 +8,7 @@ import solvay from './images/solvay-conf.jpg';
     const classes = useStyles();
     return (
         <div>
+            <h1>The 1927 Solvay Conference</h1>
             <map name="map-overlay">
                 <area 
                     alt="Section one."
@@ -30,14 +31,14 @@ import solvay from './images/solvay-conf.jpg';
                     href="#"
                     coords="775, 0, 1000,400 "/>
             </map>
-            {/* <figure> */}
+            <figure>
                 <img 
                     src={solvay}
                     className={classes.solvay}
                     usemap="#map-overlay" 
                     alt="A group photo of scientists from the 1927 Solvay Conference."/>
-                {/* <figcaption>Scientists from the 1927 Solvay Conference.</figcaption>
-            </figure> */}
+                <figcaption>Scientists from the 1927 Solvay Conference.</figcaption>
+            </figure>
            
         </div>
     )

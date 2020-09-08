@@ -1,5 +1,6 @@
 import React from 'react';
 import ImgMap from '../ImgMap';
+import SearchList from '../SearchList';
 import { makeStyles } from '@material-ui/core/styles';
 
 import Grid from '@material-ui/core/Grid';
@@ -16,14 +17,16 @@ import Paper from '@material-ui/core/Paper';
                 className={classes.paper}
                 elevation={0}
                 variant="outlined"
-                square>Header</Paper>
+                square>The 1927 Solvay Conference</Paper>
           </Grid>
           <Grid item xs={2}>
             <Paper 
                 className={classes.paper}
                 elevation={0}
                 variant="outlined"
-                square>Search</Paper>
+                square>
+                    <SearchList/>
+                </Paper>
           </Grid>
           <Grid item xs={10}>
             <Paper
