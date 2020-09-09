@@ -15,10 +15,7 @@ export default function NavBar(props){
                     <a onClick={props.changeView('scientists')}>
                         Scientists</a></li>
                 <li className={classes.item}>
-                    <a onClick={props.changeView('subjects')}>
-                        Subjects</a></li>
-                <li className={classes.item}>
-                    <a onClick={props.changeView('countries')}>
+                    <a onClick={props.changeView('country')}>
                         Countries</a></li>
             </ul>
         </div>

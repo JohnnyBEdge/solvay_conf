@@ -9,7 +9,7 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
   
   export default function Main() {
-      const [view, setView] = useState('image')
+      const [view, setView] = useState(<ImgMap/>)
     const classes = useStyles();
   
     return (
@@ -39,12 +39,12 @@ import Paper from '@material-ui/core/Paper';
                 elevation={0}
                 variant="outlined"
                 square>
-                    <ImgMap/>
+                    {/* <ImgMap/> */}
+                    {view}
                 </Paper>
           </Grid>
         </Grid>
-        <Lists/>
-        <Profile/>
+        {/* <Lists/> */}
       </div>
     );
   }

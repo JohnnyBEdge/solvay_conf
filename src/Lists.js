@@ -10,53 +10,31 @@ export default function Lists(){
         return r;
        }, []);
 
-    const scientist = data.map((person,index) => {
+    const scientists = data.map((person,index) => {
         return <li key={index}>{person.name}</li>
     })
 
-    const country = Object.keys(countries).map((x) => {
-return <h3>{x}</h3>
-    })
-
-    const items = Object.entries(countries).forEach(([key, [value]]) => {
-    return  (<>
-        <h3>{key}</h3>
-            <ul>
-                <li>{value}</li>
-            </ul>
-            </>)
-    })
+    const country = Object.entries(countries).map(([key, values, index]) => {
+        return  (<>
+            <h3 key={index}>{key}</h3>
+                <ul>
+                    {values.map(value => <li key={index}>{value}</li>)}
+                </ul>
+                </>)
+        })
     
-
-
-
-
-// let countries = data.reduce((r, a) => {
-//     r[a.origin] = [...r[a.origin] || [], a.name];
-//     return r;
-//    }, []);
-//    Object.keys(countries).forEach(x => 
-//     return <h3>x</h3> 
-//     Object.values(countries)))
-
-// let countryList = countries.map(country => 
-//     <h3>country</h3>
-//     <ul>
-//         <li>countrye</li>
-//     </ul>
-// )
 
 
     return (
         <div>
             <h2>Current View Goes Here</h2>
+            <p>By scientists:</p>
             <ul>
-                {scientist}
+                {scientists}
             </ul>
-            COUNTRIES:
-            {country}
-            ITEMS
-            {items}
+            <p>By country:</p>
+                {country}
+
 
         </div>
     )
