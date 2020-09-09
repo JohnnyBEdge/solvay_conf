@@ -1,12 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ImgMap from '../ImgMap';
-import SearchList from '../SearchList';
+import NavBar from '../NavBar';
+import Lists from '../Lists';
+import Profile from '../Profile';
 import { makeStyles } from '@material-ui/core/styles';
 
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
   
   export default function Main() {
+      const [view, setView] = useState('image')
     const classes = useStyles();
   
     return (
@@ -25,7 +28,9 @@ import Paper from '@material-ui/core/Paper';
                 elevation={0}
                 variant="outlined"
                 square>
-                    <SearchList/>
+                    <NavBar
+                        changeView={setView}
+                            />
                 </Paper>
           </Grid>
           <Grid item xs={10}>
@@ -38,6 +43,8 @@ import Paper from '@material-ui/core/Paper';
                 </Paper>
           </Grid>
         </Grid>
+        <Lists/>
+        <Profile/>
       </div>
     );
   }

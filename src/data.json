@@ -1,0 +1,234 @@
+[
+    {
+        "name": "Auguste Piccard",
+        "dob": "28 January 1884",
+        "origin": "Switzerland",
+        "dicipline": "Physics",
+        "notable": "designed ships to explore the upper stratosphere and the deep seas (bathyscaphe, 1948)",
+        "wiki": "https://en.wikipedia.org/wiki/Auguste_Piccard"
+    },
+    {
+        "name": "Émile Henriot",
+        "dob": "1 February 1885",
+        "origin": "France",
+        "dicipline": "Chemistry",
+        "notable": "detected the natural radioactivity of potassium and rubidium. He made ultracentrifuges possible and pioneered the electron microscope.",
+        "wiki": "https://en.wikipedia.org/wiki/%C3%89mile_Henriot_(chemist)"
+    },
+    {
+        "name": "Paul Ehrenfest",
+        "dob": "18 January 1880",
+        "origin": "Austria",
+        "dicipline": "Physics",
+        "notable": "remarked (in 1909) that Special Relativity makes the rim of a spinning disk shrink but not its diameter. This contradiction with Euclidean geometry inspired Einstein’s General Relativity. Ehrenfest was a great teacher and a pioneer of quantum theory.",
+        "wiki": "https://en.wikipedia.org/wiki/Paul_Ehrenfest"
+    },
+    {
+        "name": "Édouard Herzen",
+        "dob": "1877",
+        "origin": "Belgium",
+        "dicipline": "Chemistry",
+        "notable": "one of only 7 people who participated in the two Solvay conferences of 1911 and 1927. He played a leading role in the development of Physics and chemistry during the twentieth century.",
+        "wiki": "https://en.wikipedia.org/wiki/%C3%89douard_Herzen"
+    },
+    {
+        "name": "Théophile de Donder",
+        "dob": "19 August 1872",
+        "origin": "Belgium",
+        "dicipline": "Physics",
+        "notable": "defined chemical affinity in terms of the change in the free enthalpy. He founded the thermodynamics of irreversible processes, which led his student Ilya Prigogine (1917-2006) to a Nobel prize.",
+        "wiki": "https://en.wikipedia.org/wiki/Th%C3%A9ophile_de_Donder"
+    },
+    {
+        "name": "Erwin Schrödinger",
+        "dob": "12 August 1887",
+        "origin": "Austria",
+        "dicipline": "Physics",
+        "notable": "matched observed quantum behavior with the properties of a continuous nonrelativistic wave obeying the Schrödinger Equation. In 1935, he challenged the Copenhagen Interpretation, with the famous tale of Schrödinger’s cat. He shared the nobel prize with Dirac.",
+        "wiki": "https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger"
+    },
+    {
+        "name": "Jules Emile Verschaffelt",
+        "dob": "27 January 1870",
+        "origin": "Belgium",
+        "dicipline": "Physics",
+        "notable": "the Flemish physicist, got his doctorate under Kamerlingh Onnes in 1899.",
+        "wiki": "https://en.wikipedia.org/wiki/Jules-%C3%89mile_Verschaffelt"
+    },
+    {
+        "name": "Wolfgang Pauli",
+        "dob": "25 April 1900",
+        "origin": "Austria",
+        "dicipline": "Physics",
+        "notable": "formulated the exclusion principle which explains the entire table of elements. Pauli’s sharp tongue was legendary; he once said about a bad paper: “This isn’t right; this isn’t even wrong.”",
+        "wiki": "https://en.wikipedia.org/wiki/Wolfgang_Pauli"
+    },
+    {
+        "name": "Werner Heisenberg",
+        "dob": "5 December 1901",
+        "origin": "Germany",
+        "dicipline": "Physics",
+        "notable": "replaced Bohr’s semi-classical orbits by a new quantum logic which became known as matrix mechanics (with the help of Born and Jordan). The relevant noncommutativity entails Heisenberg’s uncertainty principle.",
+        "wiki": "https://en.wikipedia.org/wiki/Werner_Heisenberg"
+    },
+    {
+        "name": "Sir Ralph Fowler",
+        "dob": "17 January 1889",
+        "origin": "England",
+        "dicipline": "Physics",
+        "notable": "supervised 15 FRS and 3 Nobel laureates. In 1923, he introduced Dirac to quantum theory.",
+        "wiki": "https://en.wikipedia.org/wiki/Ralph_H._Fowler"
+    },
+    {
+        "name": "Léon Brillouin",
+        "dob": "7 August 1889",
+        "origin": "France",
+        "dicipline": "Physics",
+        "notable": "practically invented solid state Physics (Brillouin zones) and helped develop the technology that became the computers we use today.",
+        "wiki": "https://en.wikipedia.org/wiki/L%C3%A9on_Brillouin"
+    },
+    {
+        "name": "Peter Debye",
+        "dob": "24 March 1884",
+        "origin": "Netherlands",
+        "dicipline": "Physics, Chemistry",
+        "notable": "pioneered the use of dipole moments for asymmetrical molecules and extended Einstein’s theory of specific heat to low temperatures by including low-energy phonons.",
+        "wiki": "https://en.wikipedia.org/wiki/Peter_Debye"
+    },
+    {
+        "name": "Martin Knudsen",
+        "dob": "15 February 1871",
+        "origin": "Denmark",
+        "dicipline": "Physics",
+        "notable": "revived Maxwell’s kinetic theory of gases, especially at low pressure: Knudsen flow, Knudsen number etc",
+        "wiki": "https://en.wikipedia.org/wiki/Martin_Knudsen"
+    },
+    {
+        "name": "William Lawrence Bragg",
+        "dob": "31 March 1890",
+        "origin": "Austria",
+        "dicipline": "Physics",
+        "notable": "awarded the Nobel prize for Physics jointly with his father Sir William Henry Bragg for their work on the analysis of the structure of crystals using X-ray diffraction",
+        "wiki": "https://en.wikipedia.org/wiki/Lawrence_Bragg"
+    },
+    {
+        "name": "Hendrik Anthony Kramers",
+        "dob": "2 February 1894",
+        "origin": "Netherlands",
+        "dicipline": "Physics",
+        "notable": "was the first foreign scholar to seek out Niels Bohr. He became his assistant and helped develop what became known as Bohr’s Institute, where he worked on dispersion theory.",
+        "wiki": "https://en.wikipedia.org/wiki/Hans_Kramers"
+    },
+    {
+        "name": "Paul Dirac",
+        "dob": "8 August 1902",
+        "origin": "England",
+        "dicipline": "Physics",
+        "notable": "came up with the formalism on which quantum mechanics is now based. In 1928, he discovered a relativistic wave function for the electron which predicted the existence of antimatter, before it was actually observed.",
+        "wiki": "https://en.wikipedia.org/wiki/Paul_Dirac"
+    },
+    {
+        "name": "Arthur Compton",
+        "dob": "10 September 1892",
+        "origin": "United States of America",
+        "dicipline": "Physics",
+        "notable": "figured that X-rays collide with electrons as if they were relativistic particles, so their frequency shifts according to the angle of deflection (Compton scattering).",
+        "wiki": "https://en.wikipedia.org/wiki/Arthur_Compton"
+    },
+    {
+        "name": "Louis de Broglie",
+        "dob": "15 August 1892",
+        "origin": "France",
+        "dicipline": "Physics",
+        "notable": "discovered that any particle has wavelike properties, with a wavelength inversely proportional to its momentum (this helps justify Schrödinger’s equation).",
+        "wiki": "https://en.wikipedia.org/wiki/Louis_de_Broglie"
+    },
+    {
+        "name": "Max Born",
+        "dob": "5 December 1882",
+        "origin": "Germany",
+        "dicipline": "Physics",
+        "notable": "his probabilistic interpretation of Schrödinger’s wave function ended determinism in Physics but provided a firm ground for quantum theory.",
+        "wiki": "https://en.wikipedia.org/wiki/Max_Born"
+    },
+    {
+        "name": "Niels Bohr",
+        "dob": "7 October 1885",
+        "origin": "Denmark",
+        "dicipline": "Physics",
+        "notable": "started the quantum revolution with a model where the orbital angular momentum of an electron only has discrete values. He spearheaded the Copenhagen Interpretation which holds that quantum phenomena are inherently probabilistic.",
+        "wiki": "https://en.wikipedia.org/wiki/Niels_Bohr"
+    },
+    {
+        "name": "Irving Langmuir",
+        "dob": "31 January 1881",
+        "origin": "United States of America",
+        "dicipline": "Chemistry, Physics",
+        "notable": "an American chemist and physicist. His most noted publication was the famous 1919 article “The Arrangement of Electrons in Atoms and Molecules”.",
+        "wiki": "https://en.wikipedia.org/wiki/Irving_Langmuir"
+    },
+    {
+        "name": "Max Planck",
+        "dob": "23 April 1858",
+        "origin": "Germany",
+        "dicipline": "Physics",
+        "notable": "originated quantum theory, which won him the Nobel Prize in Physics in 1918. He proposed that exchanges of energy only occur in discrete lumps, which he dubbed quanta.",
+        "wiki": "https://en.wikipedia.org/wiki/Max_Planck"
+    },
+    {
+        "name": "Marie Curie",
+        "dob": "7 November 1867",
+        "origin": "Poland",
+        "dicipline": "Chemistry, Physics",
+        "notable": "the first woman to earn a Nobel prize and the first person to earn two. In 1898, she isolated two new elements (polonium and radium) by tracking their ionizing radiation, using the electrometer of Jacques and Pierre Curie.",
+        "wiki": "https://en.wikipedia.org/wiki/Marie_Curie"
+    },
+    {
+        "name": "Hendrik Lorentz",
+        "dob": "18 July 1853",
+        "origin": "Netherlands",
+        "dicipline": "Physics",
+        "notable": "discovered and gave theoretical explanation of the Zeeman effect. He also derived the transformation equations subsequently used by Albert Einstein to describe space and time.",
+        "wiki": "https://en.wikipedia.org/wiki/Hendrik_Lorentz"
+    },
+    {
+        "name": "Albert Einstein",
+        "dob": "14 March 1879",
+        "origin": "Germany",
+        "dicipline": "Physics",
+        "notable": "developed the general theory of relativity, one of the two pillars of modern Physics (alongside quantum mechanics).He is best known in popular culture for his mass–energy equivalence formula (which has been dubbed “the world’s most famous equation”). He received the 1921 Nobel Prize in Physics “for his services to theoretical Physics, and especially for his discovery of the law of the photoelectric effect”.",
+        "wiki": "https://en.wikipedia.org/wiki/Albert_Einstein"
+    },
+    {
+        "name": "Paul Langevin",
+        "dob": "23 January 1872",
+        "origin": "France",
+        "dicipline": "Physics",
+        "notable": "developed Langevin dynamics and the Langevin equation.",
+        "wiki": "https://en.wikipedia.org/wiki/Paul_Langevin"
+    },
+    {
+        "name": "Charles-Eugène Guye",
+        "dob": "15 October 1866",
+        "origin": "Switzerland",
+        "dicipline": "Physics",
+        "notable": "a professor of Physics at the University of Geneva. For Guye, any phenomenon could only exist at certain observation scales.",
+        "wiki": "https://en.wikipedia.org/wiki/Charles-Eug%C3%A8ne_Guye"
+    },
+    {
+        "name": "Charles Thomson Rees Wilson",
+        "dob": "14 February 1869",
+        "origin": "Scotland",
+        "dicipline": "Physics",
+        "notable": "reproduced cloud formation in a box. Ultimately, in 1911, supersaturated dust-free ion-free air was seen to condense along the tracks of ionizing particles. The Wilson cloud chamber detector was born.",
+        "wiki": "https://en.wikipedia.org/wiki/Charles_Thomson_Rees_Wilson"
+    },
+    {
+        "name": "Sir Owen Richardson",
+        "dob": "26 April 1879",
+        "origin": "England",
+        "dicipline": "Physics",
+        "notable": "won the Nobel Prize in Physics in 1928 for his work on thermionic emission, which led to Richardson’s Law.",
+        "wiki": "https://en.wikipedia.org/wiki/Owen_Willans_Richardson"
+    }
+]
