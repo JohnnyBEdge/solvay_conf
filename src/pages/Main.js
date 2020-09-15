@@ -9,9 +9,10 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
   
   export default function Main() {
-      const [view, setView] = useState(<ImgMap/>)
+    const [view, setView] = useState(<ImgMap/>)
+    const [listView, setListView] = useState('')
     const classes = useStyles();
-  
+
     return (
       <div className={classes.root}>
         <Grid container spacing={0}>
@@ -39,12 +40,10 @@ import Paper from '@material-ui/core/Paper';
                 elevation={0}
                 variant="outlined"
                 square>
-                    {/* <ImgMap/> */}
                     {view}
                 </Paper>
           </Grid>
         </Grid>
-        {/* <Lists/> */}
       </div>
     );
   }

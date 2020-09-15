@@ -1,5 +1,9 @@
 import React from 'react';
+import Lists from './Lists';
+import ImgMap from './ImgMap';
 import { makeStyles } from '@material-ui/core/styles';
+import CountriesList from './CountriesList';
+import ScientistList from './ScientistList';
 
 
 export default function NavBar(props){
@@ -8,15 +12,23 @@ export default function NavBar(props){
         <div>
             <h3>Browse</h3>
             <ul className={classes.list}>
-                <li className={classes.item}>
-                    <a onClick={props.changeView('image')}>
-                        Image</a></li>
-                <li className={classes.item}>
-                    <a onClick={props.changeView('scientists')}>
-                        Scientists</a></li>
-                <li className={classes.item}>
-                    <a onClick={props.changeView('country')}>
-                        Countries</a></li>
+                <li 
+                    className={classes.item}
+                    onClick={() => props.changeView(<ImgMap/>)}>
+                    Image</li>
+                <li 
+                    className={classes.item}
+                    onClick={() => {
+                        props.changeView(<ScientistList/>)
+                        // props.setListView('scientists')
+                    }}>
+                    Scientists</li>
+                <li className={classes.item}
+                    onClick={() => {
+                        props.changeView(<CountriesList/>)
+                        // props.setListView('countries')
+                    }}>
+                    Countries</li>
             </ul>
         </div>
     )
