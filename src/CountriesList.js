@@ -11,25 +11,39 @@ export default function CountriesList(){
        }, []);
 
     const country = Object.entries(countries).map(([key, values, index]) => {
-        return  (<>
-            <h3 key={index}>{key}</h3>
-                <ul>
-                    {values.map(value => <li key={index}>{value}</li>)}
+        return  (<div className={classes.listContainer}>
+            <h4 key={index}>{key}</h4>
+                <ul className={classes.list}>
+                    {values.map(value => 
+                        <li className={classes.item} key={index}>{value}</li>)}
                 </ul>
-                </>)
+                </div>)
         })
     
     return (
-        <div>
-            <h2>Countries</h2>
-            <p>By country:</p>
+        <div className={classes.container}>
+            <h2>Scientists By Countries</h2>
+            <div className={classes.countries}>
                 {country}
-
-
+            </div>
         </div>
     )
 }
 
 const useStyles = makeStyles(() => ({
-
+    item: {
+        lineHeight: 1.5,
+        fontSize: 20,
+        listStyle: 'none',
+        width: '100%',
+        display: 'inline-block'
+    },
+    countries: {
+        display: 'grid',
+        gridTemplateColumns: 'repeat(4, 1fr)',
+        padding: 0
+    },
+    container: {
+        height: '100vh'
+    }
   }));

@@ -34,6 +34,6 @@ const useStyles = makeStyles(() => ({
         columns: '100px 3',
     },
     scientists: {
-        height: '100%'
+        height: '100vh'
     }
   }));

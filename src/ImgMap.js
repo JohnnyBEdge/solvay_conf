@@ -7,7 +7,7 @@ import solvay from './images/solvay-conf.jpg';
   export default function ImgMap() {
     const classes = useStyles();
     return (
-        <div>
+        <div className={classes.container}>
             <h1>The 1927 Solvay Conference</h1>
             <map name="map-overlay">
                 <area 
@@ -48,5 +48,8 @@ import solvay from './images/solvay-conf.jpg';
     solvay: {
         width: 1000,
         height: 400
+    },
+    container: {
+        height: '100vh'
     }
   }));
