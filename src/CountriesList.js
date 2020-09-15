@@ -14,8 +14,11 @@ export default function CountriesList(){
         return  (<div className={classes.listContainer}>
             <h4 key={index}>{key}</h4>
                 <ul className={classes.list}>
-                    {values.map(value => 
-                        <li className={classes.item} key={index}>{value}</li>)}
+                    {values.map(value =>
+                     
+                        <li className={classes.item} key={index}>
+                            <a className={classes.link} href={value.split(' ').slice(-1)[0]}>{value}</a>
+                        </li>)}
                 </ul>
                 </div>)
         })
@@ -42,6 +45,10 @@ const useStyles = makeStyles(() => ({
         display: 'grid',
         gridTemplateColumns: 'repeat(4, 1fr)',
         padding: 0
+    },
+    link: {
+        textDecoration: 'none',
+        color: 'inherit'
     },
     container: {
         height: '100vh'

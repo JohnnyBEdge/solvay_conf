@@ -10,7 +10,9 @@ export default function ScientistList(){
         .map((person,index) => {
         return <li 
                 className={classes.item}
-                key={index}>{person.name}</li>
+                key={index}>
+                    <a className={classes.link} href={person.name.split(' ').slice(-1)[0]}>{person.name}</a>
+                </li>
     })
 
     return (
@@ -35,5 +37,9 @@ const useStyles = makeStyles(() => ({
     },
     scientists: {
         height: '100vh'
-    }
+    },
+    link: {
+        textDecoration: 'none',
+        color: 'inherit'
+    },
   }));
