@@ -41,7 +41,7 @@ import Paper from '@material-ui/core/Paper';
                 variant="outlined"
                 square>
                     {view}
-                </Paper>
+            </Paper>
           </Grid>
         </Grid>
       </div>
@@ -54,7 +54,7 @@ import Paper from '@material-ui/core/Paper';
     },
     paper: {
       padding: theme.spacing(2),
-      textAlign: 'center',
+      // textAlign: 'center',
       color: theme.palette.text.secondary,
     },
   }));
