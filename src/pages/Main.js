@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import ImgMap from '../ImgMap';
 import NavBar from '../NavBar';
+import Section from '../sections/Section1';
 import Lists from '../Lists';
 import Profile from '../Profile';
 import { makeStyles } from '@material-ui/core/styles';
@@ -9,9 +10,12 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
   
   export default function Main() {
-    const [view, setView] = useState(<ImgMap/>)
-    const [listView, setListView] = useState('')
+    const [view, setView] = useState('')
+    const [listView, setListView] = useState('');
+    const [section, setSection] = useState(0)
     const classes = useStyles();
+
+    
 
     return (
       <div className={classes.root}>
@@ -40,7 +44,12 @@ import Paper from '@material-ui/core/Paper';
                 elevation={0}
                 variant="outlined"
                 square>
-                    {view}
+                    {view || 
+                    <ImgMap 
+                      setView={setView} 
+                      setSection={setSection}
+                      section={section} />}
+                    {/* <Section/> */}
             </Paper>
           </Grid>
         </Grid>
