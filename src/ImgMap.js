@@ -17,7 +17,8 @@ import { getThemeProps } from '@material-ui/styles';
     const classes = useStyles();
     return (
         <div className={classes.container}>
-            <h1>The 1927 Solvay Conference</h1>
+            <h1 className={classes.title}>The 1927 Solvay Conference</h1>
+            <p className={classes.instructions}>(Click the image to discover more)</p>
             <map name="map-overlay">
                 <Link to={'/section1'}>
                     <area 
@@ -84,5 +85,16 @@ import { getThemeProps } from '@material-ui/styles';
     },
     caption: {
         fontSize: 14
+    },
+    title: {
+        alignSelf: 'center',
+        margin: 0,
+        padding: 5
+    },
+    instructions: {
+        alignSelf: 'center',
+        fontSize: 15,
+        padding: 0,
+        margin: 0
     }
   }));

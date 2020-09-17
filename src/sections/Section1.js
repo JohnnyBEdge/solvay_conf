@@ -12,25 +12,30 @@ import section1 from '../images/section1.png';
             <h1>Section 1</h1>
             <map name="map-overlay">
                 <area 
-                    alt="Section one."
+                    alt="Scientist: Auguste Piccard."
                     shape="rect" 
                     href="#"
-                    coords="0,0,250,400"/>
+                    coords="180,0,240,50"/>
                 <area 
-                    alt="Section two."
+                    alt="Scientist: Peter Debye."
                     shape="rect" 
                     href="#"
-                    coords="250, 0, 480, 400"/>
+                    coords="72, 80, 115, 135"/>
                 <area 
-                    alt="Section three."
+                    alt="Scientist: Martin Knudsen."
                     shape="rect"
                     href="#" 
-                    coords="480, 0, 775, 400"/>
+                    coords="165, 95, 215, 148"/>
                 <area 
-                    alt="Section four."
+                    alt="Scientist: Irving Langmuir."
                     shape="rect" 
                     href="#"
-                    coords="775, 0, 1000,400 "/>
+                    coords="110, 125, 150, 177"/>
+                <area 
+                    alt="Scientist: Max Planck."
+                    shape="rect" 
+                    href="#"
+                    coords="210, 120, 255, 200"/>
             </map>
             <div className={classes.imgContainer}>
                 <img 

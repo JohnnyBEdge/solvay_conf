@@ -17,7 +17,7 @@ export default function NavBar(props){
     const classes = useStyles();
     return (
          <div>
-             <h3>Browse</h3>
+             <h3>Browse By:</h3>
             <ul className={classes.list}>
                 <li className={classes.item}>
                     <Link to={'/image'}>Image</Link>
