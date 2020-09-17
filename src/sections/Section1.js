@@ -36,7 +36,7 @@ import section1 from '../images/section1.png';
                 <img 
                     src={section1}
                     className={classes.solvay}
-                    usemap="#map-overlay" 
+                    useMap="#map-overlay" 
                     alt="A group photo of scientists from the 1927 Solvay Conference."/>
                 {/* <figcaption>Scientists from the 1927 Solvay Conference.</figcaption> */}
             </div>

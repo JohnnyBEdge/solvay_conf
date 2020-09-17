@@ -58,9 +58,9 @@ function App() {
                   <Route exact path="/scientists" render={(props) => <ScientistList {...props}/>} />
                   <Route exact path="/countries" render={(props) => <CountriesList {...props}/>} /> 
                   <Route exact path="/section1" render={(props) => <Section1 {...props}/>} />
-                  <Route exact path="/section1" render={(props) => <Section2 {...props}/>} />
-                  <Route exact path="/section1" render={(props) => <Section3 {...props}/>} />
-                  <Route exact path="/section1" render={(props) => <Section4 {...props}/>} />
+                  <Route exact path="/section2" render={(props) => <Section2 {...props}/>} />
+                  <Route exact path="/section3" render={(props) => <Section3 {...props}/>} />
+                  <Route exact path="/section4" render={(props) => <Section4 {...props}/>} />
                 </Switch>
                 
             </Paper>
