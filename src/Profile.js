@@ -11,6 +11,7 @@ export default function Profile(props){
     return (
         <div className={classes.container}>
             <h2>{tempPerson.name}</h2>
+            {props.profile}
             {/* Can you dynamically change alt to match real name? */}
             <img src={temp} className={classes.image} alt="Image of scientist"/>
     <p>Born: {tempPerson.dob} in {tempPerson.origin}</p>

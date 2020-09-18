@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Main from './pages/Main';
 import Section1 from './sections/Section1';
 import Section2 from './sections/Section2';
@@ -6,6 +6,7 @@ import Section3 from './sections/Section3';
 import Section4 from './sections/Section4';
 import CountriesList from './CountriesList';
 import ScientistList from './ScientistList';
+import Profile from './Profile';
 import ImgMap from './ImgMap';
 import NavBar from './NavBar'
 
@@ -24,6 +25,7 @@ import './App.css';
 
 function App() {
   const classes = useStyles();
+  const [profile, setProfile] = useState('')
 
   return (
     <div className="App">
@@ -57,10 +59,11 @@ function App() {
                   <Route exact path="/image" render={(props) => <ImgMap {...props}/>} />
                   <Route exact path="/scientists" render={(props) => <ScientistList {...props}/>} />
                   <Route exact path="/countries" render={(props) => <CountriesList {...props}/>} /> 
-                  <Route exact path="/section1" render={(props) => <Section1 {...props}/>} />
-                  <Route exact path="/section2" render={(props) => <Section2 {...props}/>} />
-                  <Route exact path="/section3" render={(props) => <Section3 {...props}/>} />
-                  <Route exact path="/section4" render={(props) => <Section4 {...props}/>} />
+                  <Route exact path="/section1" render={(props) => <Section1 setProfile={setProfile}/>} />
+                  <Route exact path="/section2" render={(props) => <Section2 setProfile={setProfile}/>} />
+                  <Route exact path="/section3" render={(props) => <Section3 setProfile={setProfile}/>} />
+                  <Route exact path="/section4" render={(props) => <Section4 setProfile={setProfile}/>} />
+                  <Route exact path="/profile" render={(props) => <Profile profile={profile}/>} />
                 </Switch>
                 
             </Paper>
