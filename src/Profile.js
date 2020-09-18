@@ -2,28 +2,22 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import temp from './images/profilePics/temp.jpg';
 import data from './data.json'
-import images from './images/images'
-
-
 
 export default function Profile(props){
     const personData = data.find(person => person.name.toLowerCase().includes(props.profile));
-
     const classes = useStyles();
-    const image = images.map(image => <img src={image.src} /> );
-
 
     return (
         <div className={classes.container}>
-            <h2>{personData.name}</h2>
-            <img src={temp} className={classes.image} alt={`Scientist: ${personData.name}`}/>
-
-            {image}
-
-    <p>Born: {personData.dob} in {personData.origin}</p>
-            <p>Dicipline: {personData.dicipline}</p>
-            <p>Notable work: {personData.notable}</p>
-            <a href={personData.wiki}>Click here to learn more!</a>
+            
+            <img src={personData.profilePic ||temp} className={classes.image} alt={`Scientist: ${personData.name}`}/>
+            <div className={classes.info}>
+                <h2>{personData.name}</h2>
+                <p><b>Born: </b>{personData.dob} in {personData.origin}</p>
+                <p><b>Dicipline:</b> {personData.dicipline}</p>
+                <p><b>Notable work:</b> {personData.notable}</p>
+                <a href={personData.wiki}>Click here to learn more!</a>
+            </div>
 
         </div>
     )
@@ -32,11 +26,11 @@ export default function Profile(props){
 const useStyles = makeStyles(() => ({
     image: {
         maxWidth: 300,
+        margin: 20
     },
     container: {
         display: "flex",
-        flexDirection: "column",
-        width: 400,
+        width: 800,
         margin: "0 auto"
     }
   }));
