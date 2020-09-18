@@ -9,28 +9,44 @@ import section4 from '../images/section4.png';
 
     return (
         <div>
-            <h1>section4</h1>
+            <h1>Section 4</h1>
             <map name="map-overlay">
                 <area 
-                    alt="Section one."
+                    alt="Scientist: Werner Heisenberg."
                     shape="rect" 
                     href="#"
-                    coords="0,0,250,400"/>
+                    coords="23, 10, 55, 60"/>
                 <area 
-                    alt="Section two."
+                    alt="Scientist: Ralph H. Fowler."
                     shape="rect" 
                     href="#"
-                    coords="250, 0, 480, 400"/>
+                    coords="80, 0, 115, 40"/>
                 <area 
-                    alt="Section three."
-                    shape="rect"
-                    href="#" 
-                    coords="480, 0, 775, 400"/>
-                <area 
-                    alt="Section four."
+                    alt="Scientist: Léon Brillouin."
                     shape="rect" 
                     href="#"
-                    coords="775, 0, 1000,400 "/>
+                    coords="120, 15, 158, 70"/>
+                <area 
+                    alt="Scientist: Max Born."
+                    shape="rect" 
+                    href="#"
+                    coords="10, 80, 50, 140"/>
+                <area 
+                    alt="Scientist: Niels Bohr."
+                    shape="rect" 
+                    href="#"
+                    coords="105, 93, 148, 140"/>
+                <area 
+                    alt="Scientist: Charles Thomson Rees Wilson."
+                    shape="rect" 
+                    href="#"
+                    coords="70, 118, 110, 175"/>
+                <area 
+                    alt="Scientist: Owen Willans Richardson."
+                    shape="rect" 
+                    href="#"
+                    coords="150, 125, 190, 180"/>
+
             </map>
             <div className={classes.imgContainer}>
                 <img 
