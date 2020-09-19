@@ -1,8 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import data from './data.json'
+import {Link} from 'react-router-dom';
 
-export default function CountriesList(){
+export default function CountriesList(props){
     const classes = useStyles();
 
     let countries = data.reduce((r, a) => {
@@ -16,8 +17,16 @@ export default function CountriesList(){
                 <ul className={classes.list}>
                     {values.map(value =>
                      
-                        <li className={classes.item} key={index}>
-                            <a className={classes.link} href={value.split(' ').slice(-1)[0]}>{value}</a>
+                        <li 
+                            className={classes.item} 
+                            key={index}
+                            onClick={() => props.setProfile(value.split(' ').slice(-1)[0])}>
+                            <Link 
+                                to={'/profile'}
+                                className={classes.link}
+                                > {value}
+                            </Link>
+
                         </li>)}
                 </ul>
                 </div>)

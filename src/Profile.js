@@ -4,7 +4,7 @@ import temp from './images/profilePics/temp.jpg';
 import data from './data.json'
 
 export default function Profile(props){
-    const personData = data.find(person => person.name.toLowerCase().includes(props.profile));
+    const personData = data.find(person => person.name.includes(props.profile));
     const classes = useStyles();
 
     return (

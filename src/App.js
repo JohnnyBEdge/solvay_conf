@@ -57,8 +57,8 @@ function App() {
                 <Switch>
                   <Route exact path="/" render={(props) => <ImgMap {...props}/>} />
                   <Route exact path="/image" render={(props) => <ImgMap {...props}/>} />
-                  <Route exact path="/scientists" render={(props) => <ScientistList {...props}/>} />
-                  <Route exact path="/countries" render={(props) => <CountriesList {...props}/>} /> 
+                  <Route exact path="/scientists" render={(props) => <ScientistList setProfile={setProfile}/>} />
+                  <Route exact path="/countries" render={(props) => <CountriesList setProfile={setProfile}/>} /> 
                   <Route exact path="/section1" render={(props) => <Section1 setProfile={setProfile}/>} />
                   <Route exact path="/section2" render={(props) => <Section2 setProfile={setProfile}/>} />
                   <Route exact path="/section3" render={(props) => <Section3 setProfile={setProfile}/>} />

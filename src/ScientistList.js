@@ -1,8 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import data from './data.json'
+import {Link} from 'react-router-dom';
 
-export default function ScientistList(){
+export default function ScientistList(props){
     const classes = useStyles();
 
     const scientists = 
@@ -10,8 +11,13 @@ export default function ScientistList(){
         .map((person,index) => {
         return <li 
                 className={classes.item}
+                onClick={() => props.setProfile(person.name.split(' ').slice(-1)[0])}
                 key={index}>
-                    <a className={classes.link} href={person.name.split(' ').slice(-1)[0]}>{person.name}</a>
+                    <Link 
+                        to={'/profile'}
+                        className={classes.link}
+                        > {person.name}
+                        </Link>
                 </li>
     })
 
