@@ -7,6 +7,8 @@ export default function Profile(props){
     const personData = data.find(person => person.name.includes(props.profile));
     const classes = useStyles();
 
+    console.log("PersonData", personData)
+
     return (
         <div className={classes.container}>
             

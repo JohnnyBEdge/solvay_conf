@@ -18,35 +18,35 @@ import section1 from '../images/section1.png';
                     <area 
                         alt="Scientist: Auguste Piccard."
                         shape="rect" 
-                        onClick={() => props.setProfile('piccard')}
+                        onClick={() => props.setProfile('Piccard')}
                         coords="180,0,240,50"/>
                 </Link>
                 <Link to={'/profile'}>
                     <area 
                         alt="Scientist: Peter Debye."
                         shape="rect" 
-                        onClick={() => props.setProfile('debye')}
+                        onClick={() => props.setProfile('Debye')}
                         coords="72, 80, 115, 135"/>
                 </Link>
                 <Link to={'/profile'}>
                     <area 
                         alt="Scientist: Martin Knudsen."
                         shape="rect"
-                        onClick={() => props.setProfile('knudsen')}
+                        onClick={() => props.setProfile('Knudsen')}
                         coords="165, 95, 215, 148"/>
                 </Link>
                 <Link to={'/profile'}>
                     <area 
                         alt="Scientist: Irving Langmuir."
                         shape="rect" 
-                        onClick={() => props.setProfile('langmuir')}
+                        onClick={() => props.setProfile('Langmuir')}
                         coords="110, 125, 150, 177"/>
                 </Link>
                 <Link to={'/profile'}>
                     <area 
                         alt="Scientist: Max Planck."
                         shape="rect" 
-                        onClick={() => props.setProfile('planck')}
+                        onClick={() => props.setProfile('Planck')}
                         coords="210, 120, 255, 200"/>
                 </Link>
             </map>

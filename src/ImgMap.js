@@ -3,6 +3,7 @@ import Section1 from './sections/Section1';
 import Section2 from './sections/Section2';
 import Section3 from './sections/Section3';
 import Section4 from './sections/Section4';
+import Section from './sections/Section';
 
 import {Link} from 'react-router-dom';
 
@@ -19,31 +20,40 @@ import { getThemeProps } from '@material-ui/styles';
         <div className={classes.container}>
             <h1 className={classes.title}>The 1927 Solvay Conference</h1>
             <p className={classes.instructions}>(Click the image to discover more)</p>
+
             <map name="map-overlay">
-                <Link to={'/section1'}>
+                <Link to={'/section'}>
+                {/* <Link to={'/section1'}> */}
                     <area 
                         alt="Section one."
                         shape="rect" 
-                        coords="0,0,250,400"/>
+                        coords="0,0,250,400"
+                        onClick={() => props.setSection(1)}/>
                 </Link>
-                <Link to={'/section2'}>
+                <Link to={'/section'}>
+                {/* <Link to={'/section2'}> */}
                     <area 
                         alt="Section two."
                         shape="rect" 
-                        coords="250, 0, 480, 400"/>
+                        coords="250, 0, 480, 400"
+                        onClick={() => props.setSection(2)}/>
                 </Link>
-                <Link to={'/section3'}>
+                {/* <Link to={'/section3'}> */}
+                <Link to={'/section'}>
                     <area 
                         alt="Section three."
                         shape="rect"
-                        coords="480, 0, 775, 400"/>
+                        coords="480, 0, 775, 400"
+                        onClick={() => props.setSection(3)}/>
                 </Link>
                 
-                <Link to={'/section4'}>
+                <Link to={'/section'}>
+                {/* <Link to={'/section4'}> */}
                     <area 
                         alt="Section four."
                         shape="rect" 
-                        coords="775, 0, 1000,400 "/>
+                        coords="775, 0, 1000,400 "
+                        onClick={() => props.setSection(4)}/>
                 </Link>
             </map>
             <figure className={classes.imgContainer}>
@@ -73,10 +83,8 @@ import { getThemeProps } from '@material-ui/styles';
         alignSelf: 'center'
       },
     solvay: {
-        width: "100%",
-        maxWidth: 1000,
-        maxHeight: 400,
-        height: "100%",
+        width: 1000,
+        height: 400,
     },
     container: {
         height: '100vh',

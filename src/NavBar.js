@@ -36,7 +36,7 @@ export default function NavBar(props){
 
 const useStyles = makeStyles(() => ({
     list: {
-        listStyle: "none"
+        listStyle: "none",
     },
     item: {
         padding: 5

@@ -16,49 +16,49 @@ import section4 from '../images/section4.png';
                     <area 
                         alt="Scientist: Werner Heisenberg."
                         shape="rect" 
-                        onClick={() => props.setProfile('heisenberg')}
+                        onClick={() => props.setProfile('Heisenberg')}
                         coords="23, 10, 55, 60"/>
                 </Link>
                 <Link to={'/profile'}>
                     <area 
                         alt="Scientist: Ralph H. Fowler."
                         shape="rect" 
-                        onClick={() => props.setProfile('fowler')}
+                        onClick={() => props.setProfile('Fowler')}
                         coords="80, 0, 115, 40"/>
                 </Link>
                 <Link to={'/profile'}>
                     <area 
                         alt="Scientist: Léon Brillouin."
                         shape="rect" 
-                        onClick={() => props.setProfile('brillouin')}
+                        onClick={() => props.setProfile('Brillouin')}
                         coords="120, 15, 158, 70"/>
                 </Link>
                 <Link to={'/profile'}>
                     <area 
                         alt="Scientist: Max Born."
                         shape="rect" 
-                        onClick={() => props.setProfile('born')}
+                        onClick={() => props.setProfile('Born')}
                         coords="10, 80, 50, 140"/>
                 </Link>
                 <Link to={'/profile'}>
                     <area 
                         alt="Scientist: Niels Bohr."
                         shape="rect" 
-                        onClick={() => props.setProfile('bohr')}
+                        onClick={() => props.setProfile('Bohr')}
                         coords="105, 93, 148, 140"/>
                 </Link>
                 <Link to={'/profile'}>
                     <area 
                         alt="Scientist: Charles Thomson Rees Wilson."
                         shape="rect" 
-                        onClick={() => props.setProfile('wilson')}
+                        onClick={() => props.setProfile('Wilson')}
                         coords="70, 118, 110, 175"/>
                 </Link>
                 <Link to={'/profile'}>
                     <area 
                         alt="Scientist: Owen Willans Richardson."
                         shape="rect" 
-                        onClick={() => props.setProfile('richardson')}
+                        onClick={() => props.setProfile('Richardson')}
                         coords="150, 125, 190, 180"/>
                 </Link>
 
