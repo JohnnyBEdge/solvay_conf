@@ -21,7 +21,7 @@ import data from '../data.json';
     const mapArea = data.filter(person => person.section === props.section).
         map((person) => {
             return (
-                <Link to={'/profile'}>
+                <Link to={'/profile'+ "/"+person.name.split(' ').slice(-1)[0]}>
                     <area 
                         alt={`Scientist: ${person.name}".`}
                         shape="rect" 
@@ -30,29 +30,55 @@ import data from '../data.json';
                 </Link>
             )
         } )
+    const scientists = data.filter(person => person.section === props.section).
+        map(scientist => {
+            return (
+                scientist.name +", "
+                // <li>{scientist.name}</li>
+            )
+        })
 
     return (
-        <div>
-            <h1>Section {props.section}</h1>
-
+        <div className={classes.sectionContainer}>
             <map name="map-overlay">
                 {mapArea}
             </map>
-
+            <h1 className={classes.sectionTitle}>Click a face to discover more.</h1>
             <div className={classes.imgContainer}>
+                <figure>
                 <img 
                     src={sectionImage}
                     className={classes.solvay}
                     useMap="#map-overlay" 
                     alt="A group photo of scientists from the 1927 Solvay Conference."/>
+                <figcaption className={classes.caption}>
+                    {scientists}
+                </figcaption>
+                </figure>
             </div>
-           
         </div>
     )
   }
 
   const useStyles = makeStyles(() => ({
     solvay: {
-        height: 400
+        height: 500
+    },
+    sectionContainer: {
+        display: 'flex',
+        flexDirection: 'column',
+        marginLeft: 100
+    },
+    sectionTitle: {
+        fontWeight: 300
+    },
+    titleSubtext: {
+        margin: 0,
+        marginLeft: 100
+    },
+    caption: {
+        maxWidth: 350,
+        fontSize: 14,
+        fontStyle: 'italic'
     }
   }));

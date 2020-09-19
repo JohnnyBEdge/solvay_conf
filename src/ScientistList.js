@@ -14,7 +14,7 @@ export default function ScientistList(props){
                 onClick={() => props.setProfile(person.name.split(' ').slice(-1)[0])}
                 key={index}>
                     <Link 
-                        to={'/profile'}
+                        to={'/profile'+ "/"+person.name.split(' ').slice(-1)[0]}
                         className={classes.link}
                         > {person.name}
                         </Link>

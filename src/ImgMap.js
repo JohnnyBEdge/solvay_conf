@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import Section1 from './sections/Section1';
-import Section2 from './sections/Section2';
-import Section3 from './sections/Section3';
-import Section4 from './sections/Section4';
+// import Section1 from './sections/Section1';
+// import Section2 from './sections/Section2';
+// import Section3 from './sections/Section3';
+// import Section4 from './sections/Section4';
 import Section from './sections/Section';
 
 import {Link} from 'react-router-dom';
@@ -10,7 +10,7 @@ import {Link} from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 
 import solvay from './images/solvay-conf.jpg';
-import { getThemeProps } from '@material-ui/styles';
+// import { getThemeProps } from '@material-ui/styles';
   
   export default function ImgMap(props) {
     

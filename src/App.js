@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import Main from './pages/Main';
-import Section1 from './sections/Section1';
-import Section2 from './sections/Section2';
-import Section3 from './sections/Section3';
-import Section4 from './sections/Section4';
+// import Section1 from './sections/Section1';
+// import Section2 from './sections/Section2';
+// import Section3 from './sections/Section3';
+// import Section4 from './sections/Section4';
 import Section from './sections/Section';
 import CountriesList from './CountriesList';
 import ScientistList from './ScientistList';
@@ -66,7 +66,7 @@ function App() {
                   <Route exact path="/section2" render={(props) => <Section2 setProfile={setProfile}/>} />
                   <Route exact path="/section3" render={(props) => <Section3 setProfile={setProfile}/>} />
                   <Route exact path="/section4" render={(props) => <Section4 setProfile={setProfile}/>} /> */}
-                  <Route exact path="/profile" render={(props) => <Profile profile={profile}/>} />
+                  <Route exact path="/profile/:id" render={(props) => <Profile profile={profile}/>} />
                 </Switch>
                 
             </Paper>

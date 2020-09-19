@@ -22,7 +22,8 @@ export default function CountriesList(props){
                             key={index}
                             onClick={() => props.setProfile(value.split(' ').slice(-1)[0])}>
                             <Link 
-                                to={'/profile'}
+                                // to={'/profile'}
+                                to={'/profile'+ "/"+value.split(' ').slice(-1)[0]}
                                 className={classes.link}
                                 > {value}
                             </Link>
