@@ -34,7 +34,6 @@ import data from '../data.json';
         map(scientist => {
             return (
                 scientist.name +", "
-                // <li>{scientist.name}</li>
             )
         })
 
@@ -70,7 +69,9 @@ import data from '../data.json';
         marginLeft: 100
     },
     sectionTitle: {
-        fontWeight: 300
+        fontWeight: 300,
+        fontSize: 20,
+        marginLeft: 70
     },
     titleSubtext: {
         margin: 0,

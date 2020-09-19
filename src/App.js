@@ -37,14 +37,14 @@ function App() {
             <Paper 
                 className={`${classes.paper} ${classes.header}`}
                 elevation={0}
-                variant="outlined"
+                // variant="outlined"
                 square>The 1927 Solvay Conference</Paper>
           </Grid>
           <Grid item xs={2}>
             <Paper 
                 className={`${classes.paper} ${classes.nav}`}
                 elevation={0}
-                variant="outlined"
+                // variant="outlined"
                 square>
                     <NavBar/>
                 </Paper>
@@ -53,7 +53,7 @@ function App() {
             <Paper
                 className={`${classes.paper} ${classes.main}`}
                 elevation={0}
-                variant="outlined"
+                // variant="outlined"
                 square>
               
                 <Switch>
@@ -85,12 +85,31 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     padding: theme.spacing(2),
     color: theme.palette.text.secondary,
+    backgroundColor: '#e8ebe9',
+    // border: '3px double lightgrey'
   },
   main: {
-    height: '100%'
+    height: '100%',
+    backgroundColor: '#D8D5D1'
+
   },
   nav: {
     height: '100%',
+    minWidth: 200,
+    backgroundColor: '#D8D5D1'
+
+  },
+  header: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    borderBottom: '1px solid black',
+    backgroundColor: "#988771",
+    color: 'whitesmoke',
+    fontFamily: 'Great Vibes, cursive',
+    fontSize: 40,
+    letterSpacing: 1.5,
+    padding: 3
   }
 }));
 

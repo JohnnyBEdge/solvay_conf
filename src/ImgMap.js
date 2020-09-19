@@ -18,7 +18,7 @@ import solvay from './images/solvay-conf.jpg';
     const classes = useStyles();
     return (
         <div className={classes.container}>
-            <h1 className={classes.title}>The 1927 Solvay Conference</h1>
+            {/* <h1 className={classes.title}>The 1927 Solvay Conference</h1> */}
             <p className={classes.instructions}>(Click the image to discover more)</p>
 
             <map name="map-overlay">
@@ -89,7 +89,8 @@ import solvay from './images/solvay-conf.jpg';
     container: {
         height: '100vh',
         display: 'flex',
-        flexDirection: 'column'
+        flexDirection: 'column',
+        marginTop: 23
     },
     caption: {
         fontSize: 14

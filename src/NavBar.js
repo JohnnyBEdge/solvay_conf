@@ -13,11 +13,17 @@ import { Link } from 'react-router-dom';
 
 
 
+
 export default function NavBar(props){
+    
     const classes = useStyles();
     return (
+        
          <div>
-             <h3>Browse By:</h3>
+             <div className={classes.listTitle}>
+                <h3 >Browse By:</h3>
+             </div>
+             
             <ul className={classes.list}>
                 <li className={classes.item}>
                     <Link to={'/image'}>Image</Link>
@@ -37,8 +43,16 @@ export default function NavBar(props){
 const useStyles = makeStyles(() => ({
     list: {
         listStyle: "none",
+        borderRight: 'solid black 1px',
+        height: 400,
+        
     },
     item: {
         padding: 5
+    },
+    listTitle: {
+        borderBottom: 'solid black 1px',
+        width: 125,
+        margin: '0 auto'
     }
   }));

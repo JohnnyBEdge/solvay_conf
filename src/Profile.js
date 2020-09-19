@@ -28,11 +28,14 @@ export default function Profile(props){
 const useStyles = makeStyles(() => ({
     image: {
         maxWidth: 300,
-        margin: 20
+        maxHeight: 400,
+        margin: 20,
     },
     container: {
         display: "flex",
         width: 800,
-        margin: "0 auto"
+        margin: "0 auto",
+        height: '100vh',
+        marginTop: 38
     }
   }));
