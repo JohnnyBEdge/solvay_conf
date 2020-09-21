@@ -25,8 +25,10 @@ import data from '../data.json';
                     <area 
                         alt={`Scientist: ${person.name}".`}
                         shape="rect" 
+                        href="#"
                         onClick={() => props.setProfile(person.name.split(' ').slice(-1)[0])}
-                        coords={person.coords}/>
+                        coords={person.coords}
+                        />
                 </Link>
             )
         } )
@@ -70,8 +72,8 @@ import data from '../data.json';
     },
     sectionTitle: {
         fontWeight: 300,
-        fontSize: 20,
-        marginLeft: 70
+        fontSize: 15,
+        marginLeft: 90
     },
     titleSubtext: {
         margin: 0,

@@ -7,7 +7,7 @@
         "notable": "designed ships to explore the upper stratosphere and the deep seas (bathyscaphe, 1948)",
         "wiki": "https://en.wikipedia.org/wiki/Auguste_Piccard",
         "profilePic": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Bundesarchiv_Bild_102-13738%2C_Auguste_Piccard.jpg/440px-Bundesarchiv_Bild_102-13738%2C_Auguste_Piccard.jpg",
-        "coords": "180,0,240,50",
+        "coords": "230,0,280,50",
         "section": 1
     },
     {
@@ -29,7 +29,7 @@
         "notable": "remarked (in 1909) that Special Relativity makes the rim of a spinning disk shrink but not its diameter. This contradiction with Euclidean geometry inspired Einstein’s General Relativity. Ehrenfest was a great teacher and a pioneer of quantum theory.",
         "wiki": "https://en.wikipedia.org/wiki/Paul_Ehrenfest",
         "profilePic": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Paul_Ehrenfest.jpg/300px-Paul_Ehrenfest.jpg",
-        "coords": "60, 35, 110, 90",
+        "coords": "85, 45, 130, 110",
         "section": 2
     },
     {
@@ -40,7 +40,7 @@
         "notable": "one of only 7 people who participated in the two Solvay conferences of 1911 and 1927. He played a leading role in the development of Physics and chemistry during the twentieth century.",
         "wiki": "https://en.wikipedia.org/wiki/%C3%89douard_Herzen",
         "profilePic": "https://www.capeandislands.org/sites/wcai/files/styles/medium/public/201912/483px-Max_Planck_1933.jpg",
-        "coords": "145, 20, 195, 74",
+        "coords": "195, 35, 235, 85",
         "section": 2
     },
     {
@@ -51,7 +51,7 @@
         "notable": "defined chemical affinity in terms of the change in the free enthalpy. He founded the thermodynamics of irreversible processes, which led his student Ilya Prigogine (1917-2006) to a Nobel prize.",
         "wiki": "https://en.wikipedia.org/wiki/Th%C3%A9ophile_de_Donder",
         "profilePic": "https://academictree.org/photo/003/cache.025599.Th%C3%A9ophile_De_Donder.jpg",
-        "coords": "5, 35, 40, 80",
+        "coords": "8, 45, 50, 95",
         "section": 3
     },
     {
@@ -62,7 +62,7 @@
         "notable": "matched observed quantum behavior with the properties of a continuous nonrelativistic wave obeying the Schrödinger Equation. In 1935, he challenged the Copenhagen Interpretation, with the famous tale of Schrödinger’s cat. He shared the nobel prize with Dirac.",
         "wiki": "https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger",
         "profilePic": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Erwin_Schr%C3%B6dinger_%281933%29.jpg/440px-Erwin_Schr%C3%B6dinger_%281933%29.jpg",
-        "coords": "85, 10, 125, 65",
+        "coords": "110, 20, 155, 75",
         "section": 3
     },
     {
@@ -73,7 +73,7 @@
         "notable": "the Flemish physicist, got his doctorate under Kamerlingh Onnes in 1899.",
         "wiki": "https://en.wikipedia.org/wiki/Jules-%C3%89mile_Verschaffelt",
         "profilePic": "https://pbs.twimg.com/profile_images/489243499791798272/dU5KDOOS.jpeg",
-        "coords": "160, 20, 200, 75",
+        "coords": "205, 30, 245, 85",
         "section": 3
     },
     {
@@ -84,7 +84,7 @@
         "notable": "formulated the exclusion principle which explains the entire table of elements. Pauli’s sharp tongue was legendary; he once said about a bad paper: “This isn’t right; this isn’t even wrong.”",
         "wiki": "https://en.wikipedia.org/wiki/Wolfgang_Pauli",
         "profilePic": "https://upload.wikimedia.org/wikipedia/commons/4/43/Pauli.jpg",
-        "coords": "230, 10, 277, 65",
+        "coords": "295, 17, 340, 80",
         "section": 3
     },
     {
@@ -95,7 +95,7 @@
         "notable": "replaced Bohr’s semi-classical orbits by a new quantum logic which became known as matrix mechanics (with the help of Born and Jordan). The relevant noncommutativity entails Heisenberg’s uncertainty principle.",
         "wiki": "https://en.wikipedia.org/wiki/Werner_Heisenberg",
         "profilePic": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Bundesarchiv_Bild183-R57262%2C_Werner_Heisenberg.jpg/440px-Bundesarchiv_Bild183-R57262%2C_Werner_Heisenberg.jpg",
-        "coords": "23, 10, 55, 60",
+        "coords": "35, 10, 70, 70",
         "section": 4
     },
     {
@@ -106,7 +106,7 @@
         "notable": "supervised 15 FRS and 3 Nobel laureates. In 1923, he introduced Dirac to quantum theory.",
         "wiki": "https://en.wikipedia.org/wiki/Ralph_H._Fowler",
         "profilePic": "https://prabook.com/web/show-photo.jpg?id=2562459",
-        "coords": "80, 0, 115, 40",
+        "coords": "95, 0, 135, 40",
         "section": 4
     },
     {
@@ -117,7 +117,7 @@
         "notable": "practically invented solid state Physics (Brillouin zones) and helped develop the technology that became the computers we use today.",
         "wiki": "https://en.wikipedia.org/wiki/L%C3%A9on_Brillouin",
         "profilePic": "https://www.researchgate.net/profile/Armen_Sarvazyan/publication/270071523/figure/fig9/AS:778382522466307@1562592263530/Leon-Brillouin-1889-1969-courtesy-AIP-Emilio-Segre-Visual-Archives-Leon-Brillouin.png",
-        "coords": "120, 15, 158, 70",
+        "coords": "145, 25, 195, 80",
         "section": 4
     },
     {
@@ -128,7 +128,7 @@
         "notable": "pioneered the use of dipole moments for asymmetrical molecules and extended Einstein’s theory of specific heat to low temperatures by including low-energy phonons.",
         "wiki": "https://en.wikipedia.org/wiki/Peter_Debye",
         "profilePic": "https://upload.wikimedia.org/wikipedia/commons/6/62/Debye100.jpg",
-        "coords": "72, 80, 115, 135",
+        "coords": "98, 110, 150, 165",
         "section": 1
     },
     {
@@ -139,7 +139,7 @@
         "notable": "revived Maxwell’s kinetic theory of gases, especially at low pressure: Knudsen flow, Knudsen number etc",
         "wiki": "https://en.wikipedia.org/wiki/Martin_Knudsen",
         "profilePic": "https://prabook.com/web/show-photo.jpg?id=2603388",
-        "coords": "165, 95, 215, 148",
+        "coords": "215, 122, 255, 178",
         "section": 1
     },
     {
@@ -150,7 +150,7 @@
         "notable": "awarded the Nobel prize for Physics jointly with his father Sir William Henry Bragg for their work on the analysis of the structure of crystals using X-ray diffraction",
         "wiki": "https://en.wikipedia.org/wiki/Lawrence_Bragg",
         "profilePic": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Wl-bragg.jpg",
-        "coords": "8, 87, 54, 140",
+        "coords": "18, 107, 60, 160",
         "section": 2
     },
     {
@@ -161,7 +161,7 @@
         "notable": "was the first foreign scholar to seek out Niels Bohr. He became his assistant and helped develop what became known as Bohr’s Institute, where he worked on dispersion theory.",
         "wiki": "https://en.wikipedia.org/wiki/Hans_Kramers",
         "profilePic": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Kramers_1928.jpg",
-        "coords": "121, 90, 165, 140",
+        "coords": "150, 105, 200, 160",
         "section": 2
     },
     {
@@ -172,7 +172,7 @@
         "notable": "came up with the formalism on which quantum mechanics is now based. In 1928, he discovered a relativistic wave function for the electron which predicted the existence of antimatter, before it was actually observed.",
         "wiki": "https://en.wikipedia.org/wiki/Paul_Dirac",
         "profilePic": "https://quantumfrontiers.files.wordpress.com/2015/04/paul-dirac1.jpg?w=584",
-        "coords": "8, 78, 52, 125",
+        "coords": "15, 100, 60, 155",
         "section": 3
     },
     {
@@ -183,7 +183,7 @@
         "notable": "figured that X-rays collide with electrons as if they were relativistic particles, so their frequency shifts according to the angle of deflection (Compton scattering).",
         "wiki": "https://en.wikipedia.org/wiki/Arthur_Compton",
         "profilePic": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Arthur_Compton_1927.jpg",
-        "coords": "100, 78, 140, 115",
+        "coords": "133, 93, 175, 155",
         "section": 3
     },
     {
@@ -194,7 +194,7 @@
         "notable": "discovered that any particle has wavelike properties, with a wavelength inversely proportional to its momentum (this helps justify Schrödinger’s equation).",
         "wiki": "https://en.wikipedia.org/wiki/Louis_de_Broglie",
         "profilePic": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Broglie_Big.jpg",
-        "coords": "206, 83, 240, 130",
+        "coords": "255, 95, 295, 150",
         "section": 3
     },
     {
@@ -205,7 +205,7 @@
         "notable": "his probabilistic interpretation of Schrödinger’s wave function ended determinism in Physics but provided a firm ground for quantum theory.",
         "wiki": "https://en.wikipedia.org/wiki/Max_Born",
         "profilePic": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Max_Born.jpg",
-        "coords": "10, 80, 50, 140",
+        "coords": "15, 105, 60, 170",
         "section": 4
     },
     {
@@ -216,7 +216,7 @@
         "notable": "started the quantum revolution with a model where the orbital angular momentum of an electron only has discrete values. He spearheaded the Copenhagen Interpretation which holds that quantum phenomena are inherently probabilistic.",
         "wiki": "https://en.wikipedia.org/wiki/Niels_Bohr",
         "profilePic": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Niels_Bohr.jpg/440px-Niels_Bohr.jpg",
-        "coords": "105, 93, 148, 140",
+        "coords": "138, 115, 178, 170",
         "section": 4
     },
     {
@@ -227,7 +227,8 @@
         "notable": "an American chemist and physicist. His most noted publication was the famous 1919 article “The Arrangement of Electrons in Atoms and Molecules”.",
         "wiki": "https://en.wikipedia.org/wiki/Irving_Langmuir",
         "profilePic": "https://upload.wikimedia.org/wikipedia/commons/9/96/Langmuir-sitting.jpg",
-        "coords": "110, 125, 150, 177",
+        "coords": "140, 150, 185, 220",
+        
         "section": 1
     },
     {
@@ -238,7 +239,7 @@
         "notable": "originated quantum theory, which won him the Nobel Prize in Physics in 1918. He proposed that exchanges of energy only occur in discrete lumps, which he dubbed quanta.",
         "wiki": "https://en.wikipedia.org/wiki/Max_Planck",
         "profilePic": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Max_Planck_1933.jpg/440px-Max_Planck_1933.jpg",
-        "coords": "210, 120, 255, 200",
+        "coords": "270, 160, 325, 220",
         "section": 1
     },
     {
@@ -249,7 +250,7 @@
         "notable": "the first woman to earn a Nobel prize and the first person to earn two. In 1898, she isolated two new elements (polonium and radium) by tracking their ionizing radiation, using the electrometer of Jacques and Pierre Curie.",
         "wiki": "https://en.wikipedia.org/wiki/Marie_Curie",
         "profilePic": "https://cdn.britannica.com/75/135775-050-803BAC94/Marie-Curie-1917.jpg",
-        "coords": "57, 120, 103, 180",
+        "coords": "77, 140, 130, 205",
         "section": 2
     },
     {
@@ -260,7 +261,7 @@
         "notable": "discovered and gave theoretical explanation of the Zeeman effect. He also derived the transformation equations subsequently used by Albert Einstein to describe space and time.",
         "wiki": "https://en.wikipedia.org/wiki/Hendrik_Lorentz",
         "profilePic": "https://upload.wikimedia.org/wikipedia/commons/3/33/Hendrik_Antoon_Lorentz.jpg",
-        "coords": "180, 120, 220, 180",
+        "coords": "223, 160, 270, 210",
         "section": 2
     },
     {
@@ -271,7 +272,7 @@
         "notable": "developed the general theory of relativity, one of the two pillars of modern Physics (alongside quantum mechanics).He is best known in popular culture for his mass–energy equivalence formula (which has been dubbed “the world’s most famous equation”). He received the 1921 Nobel Prize in Physics “for his services to theoretical Physics, and especially for his discovery of the law of the photoelectric effect”.",
         "wiki": "https://en.wikipedia.org/wiki/Albert_Einstein",
         "profilePic": "https://cdn.mos.cms.futurecdn.net/c7dppKDbG3JXuMfybV5tUX-1200-80.jpg",
-        "coords": "68, 112, 112, 165",
+        "coords": "87, 140, 137, 205",
         "section": 3
     },
     {
@@ -282,7 +283,7 @@
         "notable": "developed Langevin dynamics and the Langevin equation.",
         "wiki": "https://en.wikipedia.org/wiki/Paul_Langevin",
         "profilePic": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Paul_Langevin_Wellcome2.jpg",
-        "coords": "180, 115, 215, 170",
+        "coords": "220, 145, 270, 200",
         "section": 3
     },
     {
@@ -293,7 +294,7 @@
         "notable": "a professor of Physics at the University of Geneva. For Guye, any phenomenon could only exist at certain observation scales.",
         "wiki": "https://en.wikipedia.org/wiki/Charles-Eug%C3%A8ne_Guye",
         "profilePic": "https://phototheque.unige.ch/img/thumbnails/8/e/7/unige_106487_500x500",
-        "coords": "253, 115, 290, 170",
+        "coords": "315, 135, 360, 200",
         "section": 3
     },
     {
@@ -304,7 +305,7 @@
         "notable": "reproduced cloud formation in a box. Ultimately, in 1911, supersaturated dust-free ion-free air was seen to condense along the tracks of ionizing particles. The Wilson cloud chamber detector was born.",
         "wiki": "https://en.wikipedia.org/wiki/Charles_Thomson_Rees_Wilson",
         "profilePic": "https://upload.wikimedia.org/wikipedia/commons/2/20/CTR_Wilson.jpg",
-        "coords": "70, 118, 110, 175",
+        "coords": "90, 148, 130, 210",
         "section": 4
     },
     {
@@ -315,7 +316,7 @@
         "notable": "won the Nobel Prize in Physics in 1928 for his work on thermionic emission, which led to Richardson’s Law.",
         "wiki": "https://en.wikipedia.org/wiki/Owen_Willans_Richardson",
         "profilePic": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Owen_Richardson.jpg",
-        "coords": "150, 125, 190, 180",
+        "coords": "190, 160, 240, 230",
         "section": 4
     }
 ]

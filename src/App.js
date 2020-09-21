@@ -27,7 +27,7 @@ import './App.css';
 function App() {
   const classes = useStyles();
   const [profile, setProfile] = useState('');
-  const [section, setSection] = useState(1);
+  const [section, setSection] = useState(4);
 
   return (
     <div className="App">
