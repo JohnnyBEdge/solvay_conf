@@ -18,11 +18,11 @@ import data from './data.json';
         : props.section === 3 ? section3
         : props.section === 4 ? section4 : '';
 
-    const mapArea = data.filter(person => person.section === props.section).
-        map((person) => {
+    const mapArea = data.filter(person => person.section === props.section)
+        .map((person) => {
             return (
-                <Link to={'/profile'+ "/"+person.name.split(' ').slice(-1)[0]}>
-                    <area 
+                <Link to={`${"/profile/"}${person.name.split(' ').slice(-1)[0]}`}>
+                    <area
                         alt={`Scientist: ${person.name}".`}
                         shape="rect" 
                         onClick={() => props.setProfile(person.name.split(' ').slice(-1)[0])}
@@ -31,8 +31,8 @@ import data from './data.json';
                 </Link>
             )
         } )
-    const scientists = data.filter(person => person.section === props.section).
-        map(scientist => {
+    const scientists = data.filter(person => person.section === props.section)
+        .map(scientist => {
             return (
                 scientist.name +", "
             )
@@ -50,7 +50,7 @@ import data from './data.json';
                     src={sectionImage}
                     className={classes.solvay}
                     useMap="#map-overlay" 
-                    alt="A group photo of scientists from the 1927 Solvay Conference."/>
+                    alt="Scientists from the 1927 Solvay Conference."/>
                 <figcaption className={classes.caption}>
                     {scientists}
                 </figcaption>

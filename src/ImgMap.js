@@ -46,7 +46,7 @@ import solvay from './images/solvay-conf.jpg';
                     src={solvay}
                     className={classes.solvay}
                     useMap="#map-overlay" 
-                    alt="A group photo of scientists from the 1927 Solvay Conference."/>
+                    alt="Scientists from the 1927 Solvay Conference."/>
 
                 <figcaption className={classes.caption}>
                     Scientists from left to right: 
