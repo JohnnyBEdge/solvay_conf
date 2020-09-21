@@ -9,6 +9,7 @@ import NavBar from './NavBar'
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import { makeStyles } from '@material-ui/core/styles';
+import {Link} from 'react-router-dom';
 
 
 import {
@@ -29,10 +30,13 @@ function App() {
       <Router>
         <Grid container spacing={0}>
           <Grid item xs={12}>
-            <Paper 
-                className={`${classes.paper} ${classes.header}`}
-                elevation={0}
-                square>The 1927 Solvay Conference</Paper>
+            <Link to={'/'} style={{ textDecoration: 'none' }}>
+              <Paper 
+                  className={`${classes.paper} ${classes.header}`}
+                  elevation={0}
+                  square>The 1927 Solvay Conference
+              </Paper>
+            </Link>
           </Grid>
           <Grid item xs={2}>
             <Paper 
@@ -49,12 +53,12 @@ function App() {
                 square>
               
                 <Switch>
-                  <Route exact path="/" render={(props) => <ImgMap setSection={setSection}/>} />
-                  <Route exact path="/image" render={(props) => <ImgMap setSection={setSection}/>} />
-                  <Route exact path="/scientists" render={(props) => <ScientistList setProfile={setProfile}/>} />
-                  <Route exact path="/countries" render={(props) => <CountriesList setProfile={setProfile}/>} /> 
-                  <Route exact path="/section" render={(props) => <Section section={section} setProfile={setProfile}/>} />
-                  <Route exact path="/profile/:id" render={(props) => <Profile profile={profile}/>} />
+                  <Route exact path="/" render={() => <ImgMap setSection={setSection}/>} />
+                  <Route exact path="/image" render={() => <ImgMap setSection={setSection}/>} />
+                  <Route exact path="/scientists" render={() => <ScientistList setProfile={setProfile}/>} />
+                  <Route exact path="/countries" render={() => <CountriesList setProfile={setProfile}/>} /> 
+                  <Route exact path="/section" render={() => <Section section={section} setProfile={setProfile}/>} />
+                  <Route exact path="/profile/:id" render={() => <Profile profile={profile}/>} />
                 </Switch>
                 
             </Paper>
@@ -96,7 +100,7 @@ const useStyles = makeStyles((theme) => ({
     fontFamily: 'Great Vibes, cursive',
     fontSize: 40,
     letterSpacing: 1.5,
-    padding: 3
+    padding: 3,
   }
 }));
 

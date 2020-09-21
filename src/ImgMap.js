@@ -11,7 +11,7 @@ import solvay from './images/solvay-conf.jpg';
             <p className={classes.instructions}>(Click the image to discover more)</p>
 
             <map name="map-overlay">
-                <Link to={'/section'}>
+                <Link to={'/section'} >
                     <area 
                         alt="Section one."
                         shape="rect" 
