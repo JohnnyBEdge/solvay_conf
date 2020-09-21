@@ -40,6 +40,7 @@ const useStyles = makeStyles(() => ({
     },
     list: {
         columns: '100px 3',
+        paddingLeft: 0
     },
     scientists: {
         height: '100vh'

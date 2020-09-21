@@ -1,10 +1,5 @@
 import React, {useState} from 'react';
-import Main from './pages/Main';
-// import Section1 from './sections/Section1';
-// import Section2 from './sections/Section2';
-// import Section3 from './sections/Section3';
-// import Section4 from './sections/Section4';
-import Section from './sections/Section';
+import Section from './Section';
 import CountriesList from './CountriesList';
 import ScientistList from './ScientistList';
 import Profile from './Profile';
@@ -37,14 +32,12 @@ function App() {
             <Paper 
                 className={`${classes.paper} ${classes.header}`}
                 elevation={0}
-                // variant="outlined"
                 square>The 1927 Solvay Conference</Paper>
           </Grid>
           <Grid item xs={2}>
             <Paper 
                 className={`${classes.paper} ${classes.nav}`}
                 elevation={0}
-                // variant="outlined"
                 square>
                     <NavBar/>
                 </Paper>
@@ -53,7 +46,6 @@ function App() {
             <Paper
                 className={`${classes.paper} ${classes.main}`}
                 elevation={0}
-                // variant="outlined"
                 square>
               
                 <Switch>
@@ -62,10 +54,6 @@ function App() {
                   <Route exact path="/scientists" render={(props) => <ScientistList setProfile={setProfile}/>} />
                   <Route exact path="/countries" render={(props) => <CountriesList setProfile={setProfile}/>} /> 
                   <Route exact path="/section" render={(props) => <Section section={section} setProfile={setProfile}/>} />
-                  {/* <Route exact path="/section1" render={(props) => <Section1 setProfile={setProfile}/>} />
-                  <Route exact path="/section2" render={(props) => <Section2 setProfile={setProfile}/>} />
-                  <Route exact path="/section3" render={(props) => <Section3 setProfile={setProfile}/>} />
-                  <Route exact path="/section4" render={(props) => <Section4 setProfile={setProfile}/>} /> */}
                   <Route exact path="/profile/:id" render={(props) => <Profile profile={profile}/>} />
                 </Switch>
                 
@@ -86,7 +74,6 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     color: theme.palette.text.secondary,
     backgroundColor: '#e8ebe9',
-    // border: '3px double lightgrey'
   },
   main: {
     height: '100%',

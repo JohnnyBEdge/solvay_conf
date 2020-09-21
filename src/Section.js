@@ -3,11 +3,11 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import {Link} from 'react-router-dom';
 
-import section1 from '../images/section1.png';
-import section2 from '../images/section2.png';
-import section3 from '../images/section3.png';
-import section4 from '../images/section4.png';
-import data from '../data.json';
+import section1 from './images/section1.png';
+import section2 from './images/section2.png';
+import section3 from './images/section3.png';
+import section4 from './images/section4.png';
+import data from './data.json';
 
   export default function Section(props) {
     const classes = useStyles();
@@ -25,7 +25,6 @@ import data from '../data.json';
                     <area 
                         alt={`Scientist: ${person.name}".`}
                         shape="rect" 
-                        href="#"
                         onClick={() => props.setProfile(person.name.split(' ').slice(-1)[0])}
                         coords={person.coords}
                         />

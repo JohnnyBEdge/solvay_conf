@@ -22,7 +22,6 @@ export default function CountriesList(props){
                             key={index}
                             onClick={() => props.setProfile(value.split(' ').slice(-1)[0])}>
                             <Link 
-                                // to={'/profile'}
                                 to={'/profile'+ "/"+value.split(' ').slice(-1)[0]}
                                 className={classes.link}
                                 > {value}
@@ -49,7 +48,7 @@ const useStyles = makeStyles(() => ({
         fontSize: 20,
         listStyle: 'none',
         width: '100%',
-        display: 'inline-block'
+        display: 'inline-block',
     },
     countries: {
         display: 'grid',
@@ -58,9 +57,12 @@ const useStyles = makeStyles(() => ({
     },
     link: {
         textDecoration: 'none',
-        color: 'inherit'
+        color: 'inherit',
     },
     container: {
         height: '100vh'
+    },
+    list: {
+        paddingLeft: 0
     }
   }));

@@ -1,18 +1,6 @@
 import React from 'react';
-import Lists from './Lists';
-import ImgMap from './ImgMap';
 import { makeStyles } from '@material-ui/core/styles';
-import CountriesList from './CountriesList';
-import ScientistList from './ScientistList';
-import Section1 from './sections/Section1';
-import Section2 from './sections/Section2';
-import Section3 from './sections/Section3';
-import Section4 from './sections/Section4';
 import { Link } from 'react-router-dom';
-
-
-
-
 
 export default function NavBar(props){
     
@@ -45,6 +33,7 @@ const useStyles = makeStyles(() => ({
         listStyle: "none",
         borderRight: 'solid black 1px',
         height: 400,
+        maxWidth: 150
         
     },
     item: {

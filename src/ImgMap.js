@@ -1,29 +1,17 @@
-import React, {useState} from 'react';
-// import Section1 from './sections/Section1';
-// import Section2 from './sections/Section2';
-// import Section3 from './sections/Section3';
-// import Section4 from './sections/Section4';
-import Section from './sections/Section';
-
+import React from 'react';
 import {Link} from 'react-router-dom';
-
 import { makeStyles } from '@material-ui/core/styles';
-
 import solvay from './images/solvay-conf.jpg';
-// import { getThemeProps } from '@material-ui/styles';
   
   export default function ImgMap(props) {
     
-
     const classes = useStyles();
     return (
         <div className={classes.container}>
-            {/* <h1 className={classes.title}>The 1927 Solvay Conference</h1> */}
             <p className={classes.instructions}>(Click the image to discover more)</p>
 
             <map name="map-overlay">
                 <Link to={'/section'}>
-                {/* <Link to={'/section1'}> */}
                     <area 
                         alt="Section one."
                         shape="rect" 
@@ -31,14 +19,12 @@ import solvay from './images/solvay-conf.jpg';
                         onClick={() => props.setSection(1)}/>
                 </Link>
                 <Link to={'/section'}>
-                {/* <Link to={'/section2'}> */}
                     <area 
                         alt="Section two."
                         shape="rect" 
                         coords="250, 0, 480, 400"
                         onClick={() => props.setSection(2)}/>
                 </Link>
-                {/* <Link to={'/section3'}> */}
                 <Link to={'/section'}>
                     <area 
                         alt="Section three."
@@ -48,7 +34,6 @@ import solvay from './images/solvay-conf.jpg';
                 </Link>
                 
                 <Link to={'/section'}>
-                {/* <Link to={'/section4'}> */}
                     <area 
                         alt="Section four."
                         shape="rect" 
@@ -62,6 +47,7 @@ import solvay from './images/solvay-conf.jpg';
                     className={classes.solvay}
                     useMap="#map-overlay" 
                     alt="A group photo of scientists from the 1927 Solvay Conference."/>
+
                 <figcaption className={classes.caption}>
                     Scientists from left to right: 
                     <br/>
